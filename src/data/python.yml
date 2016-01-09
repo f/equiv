@@ -1,0 +1,13 @@
+name: Python
+---
+http-client:
+  - name: requests
+    install: pip install requests
+
+web-framework:
+  - name: django
+    install: python install django
+
+micro-web-framework:
+  - name: flask
+    install: pip install flask

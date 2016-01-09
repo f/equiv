@@ -1,0 +1,13 @@
+name: Node.js
+---
+http-client:
+  - name: request
+    install: npm install request --save
+
+web-framework:
+  - name: sails
+    install: npm install sails --save
+
+micro-web-framework:
+  - name: express
+    install: npm install express --save

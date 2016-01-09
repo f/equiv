@@ -1,0 +1,5 @@
+name: Crystal Language
+---
+web-framework:
+  - name: kemal
+    instructions: Please add `sdogruyol/kemal` to `shards.yml`
