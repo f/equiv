@@ -13,7 +13,7 @@ Let's say you are a **Ruby user** who wants to develop **a web application with 
 Since you are a Ruby user, you already know *Sinatra*, but don't know the Python world.
 Just use `equiv` and it will find you the **Python equivalent of Sinatra**.
 ```
-eq install sinatra of python
+equiv install sinatra of python
 ```
 
 It finds the equivalent, and installs:
@@ -25,7 +25,7 @@ Installing...
 
 And also you can just use the concepts like `micro-web-framework`
 ```
-eq install micro-web-framework of ruby
+equiv install micro-web-framework of ruby
 ```
 
 It finds the best match, and installs it.
@@ -48,12 +48,12 @@ brew install equiv
 
 You can set your target language globally.
 ```
-$ eq me newbie python
+$ equiv me newbie python
 ```
 
 When you don't tell the language, it automatically sets the language.
 ```
-$ eq install sinatra
+$ equiv install sinatra
 Implicitly set language to python
 Found ruby:sinatra of python is flask
 Installing...
@@ -73,19 +73,19 @@ crystal build src/equiv.cr --release
 It's so simple...
 
 ```
-eq install [the concept] of [the language]
-eq install [the language]:[the library] of [the language]
+equiv install [the concept] of [the language]
+equiv install [the language]:[the library] of [the language]
 ```
 
 ```
-$ eq install http-client of python
+$ equiv install http-client of python
 Found http-client of python is requests
 Installing...
 > pip install requests
 ```
 
 ```
-$ eq install python:requests of node
+$ equiv install python:requests of node
 Found python:requests of node is request
 Installing...
 > npm install request --save
@@ -94,7 +94,7 @@ Installing...
 You don't have to say programming language.
 
 ```
-$ eq install sinatra of crystal
+$ equiv install sinatra of crystal
 Found python:requests of node is request
 Installing...
 > npm install request --save
