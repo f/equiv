@@ -1,3 +1,5 @@
+![Equiv Logo](https://raw.githubusercontent.com/f/equiv/master/asset/equiv.png)
+
 # Equiv: Equivalent Installer
 
 It finds equivalents of the things, and installs them.
