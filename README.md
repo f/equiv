@@ -4,24 +4,62 @@
 
 It finds equivalents of the things, and installs them.
 
-## Quick View
+The programming world grows so fast. **Loads of packages are being created** day by
+day. And there are **so many programming laguages** around. Wen the developers try
+these languages, **they need their experience**.
 
+`equiv` allows you to use your experience in all programming languages. And **it
+makes you adopt a new language faster**.
+
+Let's say you are a **Ruby user** who wants to develop **a web application with Python**.
+Since you are a Ruby user, you already know *Sinatra*, but don't know the Python world.
+Just use `equiv` and it will find you the **Python equivalent of Sinatra**.
 ```
-$ eq install sinatra of python
+eq install sinatra of python
+```
 
+It finds the equivalent, and installs:
+```
 Found ruby:sinatra of python is flask
 Installing...
 > pip install flask
+```
+
+And also you can just use the concepts like `micro-web-framework`
+```
+eq install micro-web-framework of ruby
+```
+
+It finds the best match, and installs it.
+```
+Found micro web framework of ruby is sinatra
+Installing...
+> gem install sinatra
 ```
 
 ## Installation
 
 You can install equiv using [Homebrew](http://brew.sh).
 
-
 ```
 brew tap f/equiv
 brew install equiv
+```
+
+## Setup
+
+You can set your target language globally.
+```
+$ eq me newbie python
+```
+
+When you don't tell the language, it automatically sets the language.
+```
+$ eq install sinatra
+Implicitly set language to python
+Found ruby:sinatra of python is flask
+Installing...
+> pip install flask
 ```
 
 Or you can install from the source:
