@@ -1,4 +1,4 @@
-Equiv::Language.add "node", "Node.js", {
+Equiv::Language.add "php", "PHP", {
   http_client: [
     {
       name:    "guzzle",
