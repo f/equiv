@@ -1,6 +1,6 @@
 ![Equiv Logo](https://rawgit.com/f/equiv/master/asset/equiv-logo.svg)
 
-It finds equivalents of the things, and installs them.
+It finds equivalents of the things.
 
 The programming world grows so fast. **Loads of packages are being created** day by
 day. And there are **so many programming laguages** around. When the developers try
@@ -18,7 +18,7 @@ equiv sinatra of python
 
 It finds the equivalent:
 ```
-ruby:sinatra is a micro web framework
+ruby/sinatra is a micro web framework
 equivalent in python is are:
 - flask
   > pip install flask
@@ -70,7 +70,7 @@ equivalent in python are:
 
 ```
 $ equiv python/requests of node
-python:requests is a http client
+python/requests is a http client
 equivalent in node are:
 
 - request
@@ -81,7 +81,7 @@ You don't have to say programming language.
 
 ```
 $ equiv sinatra of crystal
-ruby:sinatra is a micro web framework
+ruby/sinatra is a micro web framework
 equivalent in crystal are:
 
 - kemal

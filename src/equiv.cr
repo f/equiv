@@ -33,10 +33,11 @@ module Equiv
           libs.each do |libr|
             puts "- #{libr[:name]}"
             if libr.has_key? :instructions
-              puts " > #{libr[:instructions].colorize(:red)}"
+              puts "  > #{libr[:instructions].colorize(:red)}"
             else
               puts "  > #{libr[:install].colorize(:green)}"
             end
+            puts
           end
           exit 0
         end
@@ -48,7 +49,7 @@ module Equiv
         concepts.each do |concept, libs|
           libs.each do |libr|
             if library == libr[:name]
-              puts "#{lang.colorize(:blue)}:#{library.colorize(:green)} is a #{concept.to_s.gsub(/\_/, " ").colorize(:yellow)}"
+              puts "#{lang.colorize(:blue)}/#{library.colorize(:green)} is a #{concept.to_s.gsub(/\_/, " ").colorize(:yellow)}"
               find_concept_of concept.to_s, language
             end
           end
