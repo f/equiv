@@ -112,6 +112,13 @@ Please extend the library from `src/data/[language].cr` file.
 | [Ruby](https://github.com/f/equiv/edit/master/src/data/ruby.cr) |
 | [Add new language...](https://github.com/f/equiv/new/master/src/data?filename=language.cr&value=Equiv%3A%3ALanguage.add%20%22language%22%2C%20%22The%20New%20Language%22%2C%20%7B%0A%20%20concept%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20name%3A%20%20%20%20%22library%22%2C%0A%20%20%20%20%20%20install%3A%20%22library%20install%20command%22%2C%0A%20%20%20%20%7D%2C%0A%20%20%5D%2C%0A%7D) |
 
+## Roadmap
+
+  - Add **more and more** languages and libraries
+  - Data is built into the binary, it may be a remote service or another repo which
+    can be updated with a command like `equiv update`. Now the binary has to be updated
+    when registry updated.
+
 ## Contributing
 
 1. Fork it ( https://github.com/f/equiv/fork )
@@ -122,4 +129,5 @@ Please extend the library from `src/data/[language].cr` file.
 
 ## Contributors
 
-- [f](https://github.com/f) Fatih Kadir Akın - creator, maintainer
+- [@f](https://github.com/f) Fatih Kadir Akın - creator, maintainer
+- [@ustun](https://github.com/ustun) Üstün Özgür - the owner of the idea
