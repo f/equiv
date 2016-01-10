@@ -13,26 +13,28 @@ Let's say you are a **Ruby user** who wants to develop **a web application with 
 Since you are a Ruby user, you already know *Sinatra*, but don't know the Python world.
 Just use `equiv` and it will find you the **Python equivalent of Sinatra**.
 ```
-equiv install sinatra of python
+equiv find sinatra of python
 ```
 
-It finds the equivalent, and installs:
+It finds the equivalent:
 ```
-Found ruby:sinatra of python is flask
-Installing...
-> pip install flask
-```
-
-And also you can just use the concepts like `micro-web-framework`
-```
-equiv install micro-web-framework of ruby
+ruby:sinatra is a micro web framework
+equivalent in python is are:
+- flask
+  > pip install flask
 ```
 
-It finds the best match, and installs it.
+And also you can just use the concepts like `micro_web_framework`
 ```
-Found micro web framework of ruby is sinatra
-Installing...
-> gem install sinatra
+equiv find micro_web_framework of ruby
+```
+
+It finds the best match, and shows it.
+```
+eqivalent in ruby are:
+
+- sinatra
+  > gem install sinatra
 ```
 
 ## Installation
@@ -42,30 +44,9 @@ You can install equiv using [Homebrew](http://brew.sh).
 ```
 brew tap f/equiv
 brew install equiv
-```
 
-## Setup
-
-You can set your target language globally.
-```
-$ equiv me newbie python
-```
-
-When you don't tell the language, it automatically sets the language.
-```
-$ equiv install sinatra
-Implicitly set language to python
-Found ruby:sinatra of python is flask
-Installing...
-> pip install flask
-```
-
-Or you can install from the source:
-
-```
-git clone http://github.com/f/equiv
-cd equiv
-crystal build src/equiv.cr --release
+# Enable Autocompletion
+eval "$(equiv --completion)"
 ```
 
 ## Usage
@@ -73,36 +54,41 @@ crystal build src/equiv.cr --release
 It's so simple...
 
 ```
-equiv install [the concept] of [the language]
-equiv install [the language]:[the library] of [the language]
+equiv find [the concept] of [the language]
+equiv find [the language]/[the library] of [the language]
 ```
 
 ```
-$ equiv install http-client of python
-Found http-client of python is requests
-Installing...
-> pip install requests
+$ equiv find http_client of python
+eqivalent in python are:
+
+- requests
+  > pip install requests
 ```
 
 ```
-$ equiv install python:requests of node
-Found python:requests of node is request
-Installing...
-> npm install request --save
+$ equiv find python/requests of node
+python:requests is a http client
+eqivalent in node are:
+
+- request
+  > npm install request --save
 ```
 
 You don't have to say programming language.
 
 ```
-$ equiv install sinatra of crystal
-Found python:requests of node is request
-Installing...
-> npm install request --save
+$ equiv find sinatra of crystal
+ruby:sinatra is a micro web framework
+eqivalent in crystal are:
+
+- kemal
+ > Please add `sdogruyol/kemal` to `shards.yml`
 ```
 
 ## Development
 
-Please extend the library from `src/data/[language].yml` file.
+Please extend the library from `src/data/[language].cr` file.
 
 ## Contributing
 

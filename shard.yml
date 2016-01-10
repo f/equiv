@@ -2,6 +2,10 @@ name: equiv
 version: 0.1.0
 
 authors:
-  - Fatih Kadir Akın <fakin@protel.com.tr>
+  - Fatih Kadir Akın <fatihkadirakin@gmail.com>
+
+dependencies:
+  completion:
+    github: f/completion
 
 license: MIT

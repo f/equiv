@@ -1,0 +1,6 @@
+version: 1.0
+shards:
+  completion:
+    github: f/completion
+    commit: ca0bfb2c38d854b25a1ed02dcfca07eb00d39693
+

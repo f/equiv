@@ -1,5 +1,0 @@
-name: Go Lang
----
-http-client:
-  - name: gorequest
-    install: github.com/parnurzeal/gorequest
