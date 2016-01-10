@@ -34,12 +34,11 @@ module Equiv
             puts "- #{libr[:name]}"
             if libr.has_key? :instructions
               puts " > #{libr[:instructions].colorize(:red)}"
-              exit 0
             else
               puts "  > #{libr[:install].colorize(:green)}"
-              exit 0
             end
           end
+          exit 0
         end
       end
     end
