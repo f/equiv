@@ -41,7 +41,7 @@ equivalent in ruby are:
 
 ## Numbers
 
-### !We highly need contributions to increase numbers of registered libraries!
+#### We highly need contributions to increase numbers of registered libraries!
 
 | Registered Languages | Registered Libraries |
 | -------------------- | -------------------- |
