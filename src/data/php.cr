@@ -2,7 +2,7 @@ Equiv::Language.add "php", "PHP", {
   http_client: [
     {
       name:    "guzzle",
-      install: "composer.phar require guzzlehttp/guzzle",
+      install: "composer require guzzlehttp/guzzle",
     },
   ],
   web_framework: [
@@ -14,7 +14,7 @@ Equiv::Language.add "php", "PHP", {
   micro_web_framework: [
     {
       name:    "silex",
-      install: "composer.phar require silex/silex",
+      install: "composer require silex/silex",
     },
   ],
 }
