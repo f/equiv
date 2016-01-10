@@ -49,8 +49,8 @@ Equiv::Language.add "python", "Python", {
   ],
   time_parser: [
     {
-      name: "Standard Library",
-      instructions: "Python has built-in time library."
+      name:         "Standard Library",
+      instructions: "Python has built-in time library.",
     },
     {
       name:    "arrow",
