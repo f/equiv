@@ -39,6 +39,14 @@ equivalent in ruby are:
   > gem install sinatra
 ```
 
+## Numbers
+
+| Registered Languages | Registered Libraries |
+| -------------------- | -------------------- |
+| 6 | 23 |
+
+Want to add more? Extend [our registry](https://github.com/f/equiv/tree/master/src/data)
+
 ## Installation
 
 ## OS X
