@@ -59,10 +59,11 @@ module Equiv
     def run_action
       case ARGV[0]
       when "find"
-        concept_or_library = ARGV[1].split("/").last
+        concept_or_library = ARGV[1].split("/").last.downcase
+        of_something = ARGV[3].downcase
         begin
-          find_concept_of(concept_or_library, ARGV[3])
-          find_matching(concept_or_library, ARGV[3])
+          find_concept_of(concept_or_library, of_something)
+          find_matching(concept_or_library, of_something)
         rescue
           puts "No libraries found."
         end

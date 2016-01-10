@@ -1,6 +1,5 @@
 module Equiv
   class Language
-
     @@languages = [] of String
     @@libraries = [] of String
     @@all_libraries = {} of String => Hash(Symbol, Array(Hash(Symbol, String)))
