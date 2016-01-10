@@ -1,5 +1,7 @@
 ![Equiv Logo](https://rawgit.com/f/equiv/master/asset/equiv-logo.svg)
 
+# Equiv
+
 It finds equivalents of the things.
 
 The programming world grows so fast. **Loads of packages are being created** day by
