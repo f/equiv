@@ -3,13 +3,13 @@
 It finds equivalents of the things, and installs them.
 
 The programming world grows so fast. **Loads of packages are being created** day by
-day. And there are **so many programming laguages** around. Wen the developers try
-these languages, **they need their experience**.
+day. And there are **so many programming laguages** around. When the developers try
+new languages, **they need to reuse their experience**.
 
 `equiv` allows you to use your experience in all programming languages. And **it
 makes you adopt a new language faster**.
 
-Let's say you are a **Ruby user** who wants to develop **a web application with Python**.
+Let's say you are a **Rubyist** who wants to develop **a web application with Python**.
 Since you are a Ruby user, you already know *Sinatra*, but don't know the Python world.
 Just use `equiv` and it will find you the **Python equivalent of Sinatra**.
 ```
@@ -29,9 +29,9 @@ And also you can just use the concepts like `micro_web_framework`
 equiv micro_web_framework of ruby
 ```
 
-It finds the best match, and shows it.
+It finds the best match.
 ```
-eqivalent in ruby are:
+equivalent in ruby are:
 
 - sinatra
   > gem install sinatra
@@ -39,7 +39,9 @@ eqivalent in ruby are:
 
 ## Installation
 
-You can install equiv using [Homebrew](http://brew.sh).
+## OS X
+
+You can install `equiv` using [Homebrew](http://brew.sh).
 
 ```
 brew tap f/equiv
@@ -51,7 +53,7 @@ eval "$(equiv --completion)"
 
 ## Usage
 
-It's so simple...
+It's super simple...
 
 ```
 equiv [the concept] of [the language]
@@ -60,7 +62,7 @@ equiv [the language]/[the library] of [the language]
 
 ```
 $ equiv http_client of python
-eqivalent in python are:
+equivalent in python are:
 
 - requests
   > pip install requests
@@ -69,7 +71,7 @@ eqivalent in python are:
 ```
 $ equiv python/requests of node
 python:requests is a http client
-eqivalent in node are:
+equivalent in node are:
 
 - request
   > npm install request --save
@@ -80,7 +82,7 @@ You don't have to say programming language.
 ```
 $ equiv sinatra of crystal
 ruby:sinatra is a micro web framework
-eqivalent in crystal are:
+equivalent in crystal are:
 
 - kemal
  > Please add `sdogruyol/kemal` to `shards.yml`
