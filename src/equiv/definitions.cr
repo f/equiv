@@ -4,6 +4,7 @@ module Equiv
     :golang,
     :node,
     :python,
-    :ruby
+    :php,
+    :ruby,
   ]
 end
