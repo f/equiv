@@ -13,7 +13,7 @@ Let's say you are a **Ruby user** who wants to develop **a web application with 
 Since you are a Ruby user, you already know *Sinatra*, but don't know the Python world.
 Just use `equiv` and it will find you the **Python equivalent of Sinatra**.
 ```
-equiv find sinatra of python
+equiv sinatra of python
 ```
 
 It finds the equivalent:
@@ -26,7 +26,7 @@ equivalent in python is are:
 
 And also you can just use the concepts like `micro_web_framework`
 ```
-equiv find micro_web_framework of ruby
+equiv micro_web_framework of ruby
 ```
 
 It finds the best match, and shows it.
@@ -54,12 +54,12 @@ eval "$(equiv --completion)"
 It's so simple...
 
 ```
-equiv find [the concept] of [the language]
-equiv find [the language]/[the library] of [the language]
+equiv [the concept] of [the language]
+equiv [the language]/[the library] of [the language]
 ```
 
 ```
-$ equiv find http_client of python
+$ equiv http_client of python
 eqivalent in python are:
 
 - requests
@@ -67,7 +67,7 @@ eqivalent in python are:
 ```
 
 ```
-$ equiv find python/requests of node
+$ equiv python/requests of node
 python:requests is a http client
 eqivalent in node are:
 
@@ -78,7 +78,7 @@ eqivalent in node are:
 You don't have to say programming language.
 
 ```
-$ equiv find sinatra of crystal
+$ equiv sinatra of crystal
 ruby:sinatra is a micro web framework
 eqivalent in crystal are:
 

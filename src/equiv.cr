@@ -9,19 +9,19 @@ module Equiv
         usage
       elsif ARGV.size > 1
         case ARGV.size
+        when 1
+          find_with_options
         when 2
-          run_action_with_options
-        when 3
           help("Please specify a language to #{ARGV[0]} equivalent of #{ARGV[1].colorize(:green)}")
-        when 4
-          run_action
+        when 3
+          find
         end
       else
         help("Please specify an argument to #{ARGV[0].colorize(:green)}")
       end
     end
 
-    def run_action_with_options
+    def find_with_options
       puts usage
     end
 
@@ -56,32 +56,26 @@ module Equiv
       end
     end
 
-    def run_action
-      case ARGV[0]
-      when "find"
-        concept_or_library = ARGV[1].split("/").last
-        begin
-          find_concept_of(concept_or_library, ARGV[3])
-          find_matching(concept_or_library, ARGV[3])
-        rescue
-          puts "No libraries found."
-        end
-      else
-        puts usage
+    def find
+      concept_or_library = ARGV[0].split("/").last.downcase
+      of_something = ARGV[2].downcase
+      begin
+        find_concept_of(concept_or_library, of_something)
+        find_matching(concept_or_library, of_something)
+      rescue
+        puts "No libraries found."
       end
     end
 
     def usage
       puts "USAGE:"
-      puts "  equiv [action] [library|concept] of [language]"
+      puts "  equiv [library|concept] of [language]"
       exit 1
     end
 
     def help(message)
       puts message
-      puts "USAGE:"
-      puts "  equiv #{ARGV[0]} [library|concept] of [language]"
-      exit 1
+      usage
     end
   end
 end
