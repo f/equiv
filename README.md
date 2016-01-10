@@ -1,4 +1,4 @@
-![Equiv Logo](//rawgit.com/f/equiv/master/asset/equiv-logo.svg)
+![Equiv Logo](https://rawgit.com/f/equiv/master/asset/equiv-logo.svg)
 
 It finds equivalents of the things.
 
