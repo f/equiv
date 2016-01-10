@@ -98,9 +98,19 @@ equivalent in crystal are:
  > Please add `sdogruyol/kemal` to `shards.yml`
 ```
 
-## Development
+## Help Us
 
 Please extend the library from `src/data/[language].cr` file.
+
+| Language |
+| -------- |
+| [Crystal](https://github.com/f/equiv/edit/master/src/data/crystal.cr) |
+| [Go Language](https://github.com/f/equiv/edit/master/src/data/golang.cr) |
+| [Node.js](https://github.com/f/equiv/edit/master/src/data/node.cr) |
+| [PHP](https://github.com/f/equiv/edit/master/src/data/php.cr) |
+| [Python](https://github.com/f/equiv/edit/master/src/data/python.cr) |
+| [Ruby](https://github.com/f/equiv/edit/master/src/data/ruby.cr) |
+| [Add new language...](https://github.com/f/equiv/new/master/src/data?filename=language.cr&value=Equiv%3A%3ALanguage.add%20%22language%22%2C%20%22The%20New%20Language%22%2C%20%7B%0A%20%20concept%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20name%3A%20%20%20%20%22library%22%2C%0A%20%20%20%20%20%20install%3A%20%22library%20install%20command%22%2C%0A%20%20%20%20%7D%2C%0A%20%20%5D%2C%0A%7D) |
 
 ## Contributing
 
