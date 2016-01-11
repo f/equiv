@@ -87,4 +87,10 @@ Equiv::Language.add "php", "PHP", {
       install: "composer require cakephp/chronos",
     },
   ],
+  orm: [
+    {
+      name:    "doctrine",
+      install: "composer require doctrine/orm",
+    },
+  ],
 }
