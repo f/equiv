@@ -2,6 +2,9 @@
 
 # Equiv
 
+#### ❗️ THIS PROJECT IS IN HARD DEVELOPMENT AND BIG CHANGES MAY HAPPEN
+#### (PLEASE GIVE YOUR IDEAS TO MAKE IT BETTER)
+
 It finds equivalents of the things.
 
 The programming world grows so fast. **Loads of packages are being created** day by
