@@ -92,5 +92,23 @@ Equiv::Language.add "php", "PHP", {
       name:    "doctrine",
       install: "composer require doctrine/orm",
     },
+    {
+      name:    "propel",
+      install: "composer require propel/propel",
+    },
+    {
+      name:    "cakephp orm",
+      install: "composer require cakephp/orm",
+    },
+  ],
+  file_upload: [
+    {
+      name:    "codeguy/upload",
+      install: "composer require codeguy/upload",
+    },
+    {
+      name:    "siriusphp/upload",
+      install: "composer require siriusphp/upload",
+    },
   ],
 }
