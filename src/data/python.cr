@@ -57,4 +57,64 @@ Equiv::Language.add "python", "Python", {
       install: "pip install arrow",
     },
   ],
+  machine_learning: [
+    {
+      name:    "crab",
+      install: "pip install crab",
+    },
+    {
+      name:    "gensim",
+      install: "pip install -U gensim",
+    },
+    {
+      name:    "hebel",
+      install: "pip install hebel",
+    },
+    {
+      name:    "nupic",
+      install: "pip install nupic",
+    },
+    {
+      name:    "pattern",
+      install: "pip install pattern",
+    },
+    {
+      name:    "pybrain",
+      install: "pip install PyBrain",
+    },
+    {
+      name:    "scikit-learn",
+      install: "pip install -U scikit-learn",
+    },
+    {
+      name:    "skflow",
+      install: "pip install git+git://github.com/tensorflow/skflow.git",
+    },
+  ],
+  natural_language_processing: [
+    {
+      name:    "NLTK",
+      install: "sudo pip install -U nltk",
+    },
+    {
+      name:    "Jeiba",
+      install: "pip install jieba",
+    },
+    {
+      name:    "langid.py",
+      install: "pip install langid",
+    },
+    {
+      name:    "SnowNLP",
+      install: "pip install snownlp",
+    },
+    {
+      name:    "TextBlob",
+      install: "pip install -U textblob",
+    },
+    {
+      name:    "TextGrocery",
+      install: "pip install tgrocery",
+    },
+  ],
 }
